@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35424.110
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAssemblyForJS", "WebAssemblyForJS\WebAssemblyForJS\WebAssemblyForJS.csproj", "{18C8FB67-7EDB-4361-924B-7F37C23BB9A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAssemblyForJS.Client", "WebAssemblyForJS\WebAssemblyForJS.Client\WebAssemblyForJS.Client.csproj", "{B0AAEED2-9920-4669-A251-9870CCD0D4AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JS", "JS", "{2CD3C78A-B532-44A4-87A4-867056311D9D}"
+	ProjectSection(SolutionItems) = preProject
+		..\StandaloneJS\index.html = ..\StandaloneJS\index.html
+		..\StandaloneJS\index2.html = ..\StandaloneJS\index2.html
+		..\StandaloneJS\jsComponentInitializers.js = ..\StandaloneJS\jsComponentInitializers.js
+		..\StandaloneJS\scripts.js = ..\StandaloneJS\scripts.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18C8FB67-7EDB-4361-924B-7F37C23BB9A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C8FB67-7EDB-4361-924B-7F37C23BB9A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C8FB67-7EDB-4361-924B-7F37C23BB9A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C8FB67-7EDB-4361-924B-7F37C23BB9A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0AAEED2-9920-4669-A251-9870CCD0D4AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0AAEED2-9920-4669-A251-9870CCD0D4AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0AAEED2-9920-4669-A251-9870CCD0D4AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0AAEED2-9920-4669-A251-9870CCD0D4AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
